@@ -1,0 +1,19 @@
+{
+  "supported": [
+    "All 6 experiments evaluated on one test split (n=4140).",
+    "EXP_B vs EXP_C: +0.75pp, McNemar p=2.25e-05 (n=4140). Powered and significant.",
+    "Uniform VQC (C) > dual-branch VQC (D): +0.51pp, McNemar p=4.17e-02, complete seed separation, d=3.64",
+    "EXP-C better calibrated than EXP-D (non-overlapping bootstrap CIs).",
+    "VQC uncertainty enables better abstention: mean acc gain@50%% coverage 2.07pp (quantum) vs 1.50pp (classical). Novel \u2014 no QML-RS paper reports selective prediction.",
+    "OOD curves replicated over 3 noise draws with error bars."
+  ],
+  "qualified": [
+    "Non-canonical EuroSAT (27597 imgs, {'SeaLake': 597}). Must be declared; published EuroSAT numbers are NOT directly comparable.",
+    "Hessian: single seed, single checkpoint. Report as preliminary observation with n_estimates disclosed; not a headline claim.",
+    "Seed-level tests are underpowered by construction (Wilcoxon floor p=0.250 at n=3 vs Bonferroni alpha=0.0083). State this explicitly; carry significance with McNemar on paired samples.",
+    "OOD robustness tracks INPUT CHANNEL COUNT (4-band > 3-band > 1-band) at least as strongly as architecture. Do not attribute EXP-D's collapse to quantum encoding without addressing this confound."
+  ],
+  "unsupported": [
+    "Dual-branch VQC improves accuracy \u2014 REFUTED by the data."
+  ]
+}

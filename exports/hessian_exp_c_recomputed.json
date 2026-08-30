@@ -1,0 +1,14 @@
+{
+  "best": {
+    "all": {
+      "trace": 0.6370687156915664,
+      "n_estimates": 30,
+      "n_failed": 0,
+      "std": 0.1923898890247892,
+      "stderr": 0.035125427351597543,
+      "n_params": 48,
+      "trace_per_param": 0.013272264910240967,
+      "reliable": true
+    }
+  }
+}
