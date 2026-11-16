@@ -1,0 +1,144 @@
+{
+  "exp_c": {
+    "42": {
+      "all": {
+        "trace_exact": 0.8944332923040513,
+        "trace_hutchinson": 0.8224745711642516,
+        "hutch_stderr": 0.046641790766850044,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.6767674820756112,
+        "circuit_curvature_term": 0.21766581022844012,
+        "n_params": 48,
+        "trace_per_param": 0.01863402692300107
+      },
+      "checkpoint": "exp_c_seed42_epoch029_valAcc0.9744_best.pt"
+    },
+    "2021": {
+      "all": {
+        "trace_exact": 0.881825631945901,
+        "trace_hutchinson": 0.9913044024714648,
+        "hutch_stderr": 0.06025386271104461,
+        "n_estimates": 30,
+        "gauss_newton_exact": 1.04047841499135,
+        "circuit_curvature_term": -0.15865278304544894,
+        "n_params": 48,
+        "trace_per_param": 0.018371367332206272
+      },
+      "checkpoint": "exp_c_seed2021_epoch028_valAcc0.9727_best.pt"
+    },
+    "7": {
+      "all": {
+        "trace_exact": 1.0955185425180896,
+        "trace_hutchinson": 1.2061533385259102,
+        "hutch_stderr": 0.052161852509580116,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.9678057795607444,
+        "circuit_curvature_term": 0.12771276295734513,
+        "n_params": 48,
+        "trace_per_param": 0.022823302969126866
+      },
+      "checkpoint": "exp_c_seed7_epoch030_valAcc0.9771_best.pt"
+    }
+  },
+  "exp_d": {
+    "42": {
+      "all": {
+        "trace_exact": 1.142662358251185,
+        "trace_hutchinson": 1.216035227595311,
+        "hutch_stderr": 0.060045605942086314,
+        "n_estimates": 30,
+        "gauss_newton_exact": 1.1633626219117772,
+        "circuit_curvature_term": -0.02070026366059219,
+        "n_params": 48,
+        "trace_per_param": 0.023805465796899686
+      },
+      "rgb": {
+        "trace_exact": 0.7024374066298538,
+        "trace_hutchinson": 0.7394136584495148,
+        "hutch_stderr": 0.04155362769166046,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.676490909574228,
+        "circuit_curvature_term": 0.025946497055625795,
+        "n_params": 24,
+        "trace_per_param": 0.029268225276243908
+      },
+      "nir": {
+        "trace_exact": 0.44022495162133124,
+        "trace_hutchinson": 0.4672156211222673,
+        "hutch_stderr": 0.03600003255559188,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.48687171233754867,
+        "circuit_curvature_term": -0.04664676071621743,
+        "n_params": 24,
+        "trace_per_param": 0.01834270631755547
+      },
+      "checkpoint": "exp_d_seed42_epoch030_valAcc0.9674_best.pt"
+    },
+    "2021": {
+      "all": {
+        "trace_exact": 0.9230594516530906,
+        "trace_hutchinson": 0.9649078489038347,
+        "hutch_stderr": 0.04574853510780202,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.7891220371274608,
+        "circuit_curvature_term": 0.1339374145256298,
+        "n_params": 48,
+        "trace_per_param": 0.01923040524277272
+      },
+      "rgb": {
+        "trace_exact": 0.7052422246942883,
+        "trace_hutchinson": 0.6925861315689671,
+        "hutch_stderr": 0.020735675885028285,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.4605572384667849,
+        "circuit_curvature_term": 0.2446849862275034,
+        "n_params": 24,
+        "trace_per_param": 0.029385092695595347
+      },
+      "nir": {
+        "trace_exact": 0.21781722695880226,
+        "trace_hutchinson": 0.3050790421352917,
+        "hutch_stderr": 0.044482403149496065,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.3285647986606759,
+        "circuit_curvature_term": -0.11074757170187363,
+        "n_params": 24,
+        "trace_per_param": 0.009075717789950094
+      },
+      "checkpoint": "exp_d_seed2021_epoch030_valAcc0.9669_best.pt"
+    },
+    "7": {
+      "all": {
+        "trace_exact": 1.505533754436435,
+        "trace_hutchinson": 1.4633259304063604,
+        "hutch_stderr": 0.09043822280708981,
+        "n_estimates": 30,
+        "gauss_newton_exact": 1.4574062602663318,
+        "circuit_curvature_term": 0.04812749417010309,
+        "n_params": 48,
+        "trace_per_param": 0.03136528655075906
+      },
+      "rgb": {
+        "trace_exact": 1.1116253999041703,
+        "trace_hutchinson": 0.9773961719273441,
+        "hutch_stderr": 0.05627777595400088,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.8652605366861961,
+        "circuit_curvature_term": 0.24636486321797424,
+        "n_params": 24,
+        "trace_per_param": 0.046317724996007094
+      },
+      "nir": {
+        "trace_exact": 0.3939083545322646,
+        "trace_hutchinson": 0.41269980418509633,
+        "hutch_stderr": 0.03580863100924484,
+        "n_estimates": 30,
+        "gauss_newton_exact": 0.592145723580136,
+        "circuit_curvature_term": -0.19823736904787137,
+        "n_params": 24,
+        "trace_per_param": 0.016412848105511024
+      },
+      "checkpoint": "exp_d_seed7_epoch030_valAcc0.9657_best.pt"
+    }
+  }
+}
